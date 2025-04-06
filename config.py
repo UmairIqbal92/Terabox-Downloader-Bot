@@ -2,24 +2,24 @@ from os import environ
 
 
 # BOT CONFIG
-API_ID = environ.get("API_ID", 123456)  # api id
-API_HASH = environ.get("API_HASH", "")  # api hash
-BOT_TOKEN = environ.get("BOT_TOKEN", "")  # bot token
+API_ID = environ.get("API_ID", 3926ca4e1cd8a390bf76032068f48d1b)  # api id
+API_HASH = environ.get("API_HASH", "6868504")  # api hash
+BOT_TOKEN = environ.get("BOT_TOKEN", "7949907379:AAFOkuVcQDwF8QLZCH8MW9Ov2emaizMOQKg")  # bot token
 
 # REDIS
-REDIS_HOST = environ.get("REDIS_HOST", "localhost")  # redis host uri
-REDIS_PORT = environ.get("REDIS_PORT", 12345)  # redis port
+REDIS_HOST = environ.get("REDIS_HOST", "redis-18031.c85.us-east-1-2.ec2.redns.redis-cloud.com")  # redis host uri
+REDIS_PORT = environ.get("REDIS_PORT", 18031)  # redis port
 REDIS_PASSWORD = environ.get(
-    "REDIS_PASSWORD", "q8vcRgGfoZgwKT6irvJ6AixPs1lFZdW8"
+    "REDIS_PASSWORD", "JXvS4C2MnJ9n8xLYwJ6xTXIePC4t77m4"
 )  # redis password
 
 
-ADMINS = [6791744215]
-OWNER_ID = 6791744215  # Replace with your Telegram user ID
-PRIVATE_CHAT_ID = -100  # CHAT WHERE YOU WANT TO STORE VIDEOS
-USER_CHANNEL = -100
-DUMP_CHANNEL = -100
+ADMINS = [1724014764]
+OWNER_ID = 1724014764  # Replace with your Telegram user ID
+PRIVATE_CHAT_ID = -1002288284701  # CHAT WHERE YOU WANT TO STORE VIDEOS
+USER_CHANNEL = -1002288284701
+DUMP_CHANNEL = -1002288284701
 
 
 # Config
-COOKIE = environ.get("COOKIE", "")
+COOKIE = environ.get("COOKIE", "csrfToken=YlA1OIgsdmCgepTKbvi4qYam; browserid=foGPER6KQ5jsToZjkr9HRwOrqV9sXV7beXN2nJObXe8B76R2dbOp77VMydA=; lang=en; TSID=VRFvQK3jESd4Gpwl24vmAXERYlRkLY8n; __bid_n=192031745304bc99014207; _ga=GA1.1.866540836.1743811913; ndut_fmt=A4460C49B261F7F8C113EB69F250DDB5F449CCCC80C7DB89C1998D384F192256; ndus=Y2IO237teHuihYBBODm7qUQs42OG93FgC8K_rWY0;  _ga_06ZNKL8C2E=GS1.1.1743897542.3.1.1743899345.46.0.0")
